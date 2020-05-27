@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  ignite:
+  - apiVersion: v1
+    appVersion: 2.7.6
+    created: "2020-05-27T20:16:26.152635215+05:30"
+    description: Apache Ignite is an open-source distributed database, caching and
+      processing platform designed to store and compute on large volumes of data across
+      a cluster of nodes.
+    digest: c0c0b07a4af4d4cf3030a3d7a7b3104fbe4458abbe9d845feef1bc52df91279f
+    home: https://ignite.apache.org/
+    icon: https://ignite.apache.org/images/Ignite_tm_Logo_wht_RGB.svg
+    keywords:
+    - java
+    - datagrid
+    - caching
+    - jvm
+    - sql
+    - key-value
+    - nosql
+    - distributed
+    maintainers:
+    - name: aasiutin
+    - name: greyteardrop
+    name: ignite
+    sources:
+    - https://github.com/apache/ignite
+    urls:
+    - ignite-1.0.1.tgz
+    version: 1.0.1
+generated: "2020-05-27T20:16:26.151505572+05:30"
