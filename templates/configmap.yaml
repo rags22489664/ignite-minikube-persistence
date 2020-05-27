@@ -52,19 +52,19 @@ data:
                        Sets a path to the root directory where data and indexes are
                        to be persisted. It's assumed the directory is on a dedicated disk.
                     -->
-                    <property name="storagePath" value="/persistence"/>
+                    <property name="storagePath" value="/data/persistence"/>
 
                     <!--
                         Sets a path to the directory where WAL is stored.
                         It's assumed the directory is on a dedicated disk.
                     -->
-                    <property name="walPath" value="/wal"/>
+                    <property name="walPath" value="/data/wal"/>
 
                     <!--
                         Sets a path to the directory where WAL archive is stored.
                         It's assumed the directory is on the same drive with the WAL files.
                     -->
-                    <property name="walArchivePath" value="/wal/archive"/>
+                    <property name="walArchivePath" value="/data/wal/archive"/>
 {{- end }}
 {{ .Values.dataStorage.config | indent 20 }}
                 </bean>

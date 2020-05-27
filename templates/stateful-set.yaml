@@ -48,9 +48,9 @@ spec:
         - containerPort: 10900 #Thin clients port number.
         volumeMounts:
 {{- if (.Values.persistence.enabled) }}
-        - mountPath: "/wal"
+        - mountPath: "/data/wal"
           name: ignite-wal
-        - mountPath: "/persistence"
+        - mountPath: "/data/persistence"
           name: ignite-persistence
 {{- end }}
         - name: config-volume
