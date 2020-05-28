@@ -28,5 +28,6 @@ spec:
       port: 10900
       targetPort: 10900
   clusterIP: None
+  type: NodePort
   selector:
     app: {{ include "ignite.fullname" . }}
